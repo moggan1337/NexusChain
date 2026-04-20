@@ -1,0 +1,44 @@
+# NexusChain Requirements
+# Python dependencies for Layer 2 ZK-Rollup blockchain
+
+# Core
+python>=3.11
+eth-keys>=0.4.0
+eth-utils>=2.0.0
+rlp>=3.0.0
+
+# Async
+aiohttp>=3.8.0
+asyncio-throttle>=1.0.0
+
+# Crypto (for advanced ZK, install separately)
+# pysnark>=0.3.0  # Alternative ZK library
+
+# Serialization
+protobuf>=4.21.0
+
+# Web3
+web3>=6.0.0
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.0.0
+
+# Type checking
+mypy>=1.0.0
+typing-extensions>=4.5.0
+
+# Linting
+black>=23.0.0
+flake8>=6.0.0
+
+# Documentation
+sphinx>=6.0.0
+sphinx-rtd-theme>=1.3.0
+
+# Performance
+numba>=0.57.0  # For proof generation acceleration
+
+# Utilities
+python-dotenv>=1.0.0
