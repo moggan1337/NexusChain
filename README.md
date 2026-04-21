@@ -19,6 +19,24 @@
 
 ---
 
+## 🎬 Demo
+![NexusChain Demo](demo.gif)
+
+*ZK-Rollup blockchain with zero-knowledge proofs*
+
+## Screenshots
+| Component | Preview |
+|-----------|---------|
+| Block Explorer | ![explorer](screenshots/block-explorer.png) |
+| Proof Generation | ![proof](screenshots/proof-gen.png) |
+| Transaction Pool | ![txpool](screenshots/txpool.png) |
+
+## Visual Description
+Block explorer displays blocks with transaction batches. Proof generation shows proof creation with circuit size. Transaction pool shows pending txs with compression status.
+
+---
+
+
 ## Table of Contents
 
 1. [Overview](#overview)
